@@ -20,7 +20,7 @@ There will be **SEPERATE** channels for each colors. Newer colors are WIP.
 Copy this code into Dashboard > General > Custom CSS
 #### Green:
 ```css
-@import url('https://Fallenbagel/Hint-of-Colors/green.css');
+@import url('https://fallenbagel.github.io/Hint-of-Colors/green.css');
 ```
 or
 #### Lavender:
