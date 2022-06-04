@@ -17,6 +17,9 @@ Just like hint of green CSS, this theme can be considered as heavy but should wo
 ## Installation
 There will be **SEPERATE** channels for each colors. Newer colors are WIP.
 
+**_Required_** Go to Settings > Home > Home screen section 1: > select `My Media (small)`
+This step is necessary for the theme to be applied to library buttons.
+
 Copy this code into Dashboard > General > Custom CSS
 #### Green:
 ```css
