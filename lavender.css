@@ -16,7 +16,7 @@
 
 #loginPage .button-submit {
     margin-top: 50px;
-    background: #2f5d62
+    background: #967bb6
 }
 
 #loginPage .checkboxContainer {
@@ -25,13 +25,13 @@
 
 #loginPage .emby-input:focus,
 .emby-textarea:focus {
-    border-color: #2f5d62
+    border-color: #967bb6
 }
 
 #loginPage .inputLabelFocused,
 .selectLabelFocused,
 .textareaLabelFocused {
-    color: #2f5d62
+    color: #967bb6
 }
 
 .manualLoginForm {
@@ -47,7 +47,7 @@
 
 #loginPage .button-submit {
     margin-top: 50px;
-    background: #2f5d62
+    background: #967bb6
 }
 
 #loginPage .checkboxContainer {
@@ -56,13 +56,13 @@
 
 #loginPage .emby-input:focus,
 .emby-textarea:focus {
-    border-color: #2f5d62
+    border-color: #967bb6
 }
 
 #loginPage .inputLabelFocused,
 .selectLabelFocused,
 .textareaLabelFocused {
-    color: #2f5d62
+    color: #967bb6
 }
 
 .skinHeader.semiTransparent {
@@ -81,7 +81,7 @@
 
 .emby-input:focus,
 .emby-textarea:focus {
-    border-color: #2f5d62
+    border-color: #967bb6
 }
 
 @media all and (min-width:50em) {
@@ -544,7 +544,7 @@ video:cue {
 }
 
 .backgroundContainer.withBackdrop {
-    background-color: rgba(47, 93, 98, .3)
+    background-color: rgba(115, 79, 150, .3)
 }
 
 .layout-desktop .itemBackdrop::after {
@@ -577,40 +577,40 @@ video:cue {
 }
 
 .button-link {
-    color: #5e8b7e
+    color: #c395E4
 }
 
 @media (hover:hover) and (pointer:fine) {
     .paper-icon-button-light:hover:not(:disabled) {
-        color: #a7c4bc;
-        background-color: rgba(47, 93, 98, .2)
+        color: #E8BFFB;
+        background-color: rgba(115, 79, 150, .2)
     }
 }
 
 .emby-select,
 .emby-select-withcolor {
-    background-color: rgba(223, 238, 234, .2);
+    background-color: rgba(220, 208, 255, .2);
     border-style: hidden
 }
 
 .mdl-slider-background-lower {
-    background-color: #a7c4bc
+    background-color: #E8BFFB
 }
 
 .mdl-slider::-moz-range-thumb {
-    background: #a7c4bc
+    background: #E8BFFB
 }
 
 .mdl-slider::-ms-thumb {
-    background: #a7c4bc
+    background: #E8BFFB
 }
 
 .mdl-slider::-webkit-slider-thumb {
-    background: #a7c4bc
+    background: #E8BFFB
 }
 
 .iconOsdProgressInner {
-    background: #a7c4bc
+    background: #E8BFFB
 }
 
 .videoOsdBottom {
@@ -619,92 +619,92 @@ video:cue {
 }
 
 .upNextDialog-countdownText {
-    color: #a7c4bc
+    color: #E8BFFB
 }
 
 .navMenuOption:hover {
-    background: rgba(223, 238, 234, .2)
+    background: rgba(220, 208, 255, .2)
 }
 
 .block {
-    background-color: #2f5d62
+    background-color: #967bb6
 }
 
 .checkboxIcon-checked {
-    background-color: #2f5d62;
+    background-color: #967bb6;
     border-style: none
 }
 
 .emby-checkbox:checked+span+.checkboxOutline {
-    background-color: #2f5d62;
+    background-color: #967bb6;
     border-style: none
 }
 
 .defaultCardBackground1 {
-    background-color: #698474
+    background-color: #9d92db
 }
 
 .defaultCardBackground2 {
-    background-color: #889e81
+    background-color: #BBBEFE
 }
 
 .defaultCardBackground3 {
-    background-color: #bac7a7
+    background-color: #E6DCFF
 }
 
 .defaultCardBackground4 {
-    background-color: #004445
+    background-color: #D099E2
 }
 
 .defaultCardBackground5 {
-    background-color: #a7c4bc
+    background-color: #E8BFFB
 }
 
 .navMenuOption-selected {
-    background-color: #a7c4bc !important
+    background-color: #E8BFFB !important
 }
 
 :root {
-    --swiper-theme-color: #2f5d62
+    --swiper-theme-color: #967bb6
 }
 
 progress {
     background: rgba(0, 0, 0, .5) !important;
-    border: 1px solid rgba(167, 196, 188, .22)
+    border: 1px solid rgba(177, 156, 217, .22)
 }
 
 progress::-webkit-progress-bar {
     background: rgba(0, 0, 0, .5) !important;
-    border: 0 solid rgba(167, 196, 188, .22)
+    border: 0 solid rgba(177, 156, 217, .22)
 }
 
 progress::-moz-progress-bar {
-    background-color: rgba(167, 196, 188, .75)
+    background-color: rgba(177, 156, 217, .75)
 }
 
 progress::-webkit-progress-value {
-    background-color: rgba(167, 196, 188, .75)
+    background-color: rgba(177, 156, 217, .75)
 }
 
 #divRunningTasks span {
-    color: rgba(167, 196, 188, .75) !important
+    color: rgba(177, 156, 217, .75) !important
 }
 
 .taskProgressOuter {
     background: rgba(0, 0, 0, .5) !important;
-    border: 1px solid rgba(167, 196, 188, .22)
+    border: 1px solid rgba(177, 156, 217, .22)
 }
 
 .taskProgressInner {
-    background: rgba(167, 196, 188, .75) !important
+    background: rgba(177, 156, 217, .75) !important
 }
 
 #scheduledTasksPage span {
-    color: rgba(167, 196, 188, .75) !important
+    color: rgba(177, 156, 217, .75) !important
 }
 
 .progressring-spiner {
-    border-color: #a7c4bc;
+    border-color: #E8BFFB;
     border-width: .35em
 }
 
@@ -726,7 +726,7 @@ div[data-role=controlgroup] a.ui-btn-active {
 }
 
 a[data-role=button]:hover {
-    background: rgba(167, 196, 188, .8) !important
+    background: rgba(187, 190, 254, .8) !important
 }
 
 div[data-role=controlgroup] a[data-role=button]+a[data-role=button] {
@@ -734,11 +734,11 @@ div[data-role=controlgroup] a[data-role=button]+a[data-role=button] {
 }
 
 .button-submit:hover {
-    background: rgba(167, 196, 188, .8)
+    background: rgba(187, 190, 254, .8)
 }
 
 .cardOverlayButtonIcon:hover {
-    background-color: rgba(167, 196, 188, .5) !important
+    background-color: rgba(187, 190, 254, .5) !important
 }
 
 .cardOverlayButtonIcon {
@@ -750,15 +750,15 @@ div[data-role=controlgroup] a[data-role=button]+a[data-role=button] {
 }
 
 .button-flat:hover {
-    color: #2f5d62
+    color: #967bb6
 }
 
 .actionSheetMenuItem:hover {
-    background-color: #2f5d62
+    background-color: #967bb6
 }
 
 .listItemIcon:not {
-    background-color: #2f5d62 !important
+    background-color: #967bb6 !important
 }
 
 .dashboardFooter {
@@ -766,12 +766,12 @@ div[data-role=controlgroup] a[data-role=button]+a[data-role=button] {
 }
 
 .button-submit:focus {
-    background-color: #2f5d62
+    background-color: #967bb6
 }
 
 .toastVisible {
-    color: #2f5d62;
-    background: #c9e4c5
+    color: #967bb6;
+    background: #c5c5e4
 }
 
 @media not all and (min-resolution:.001dpcm) {
@@ -787,44 +787,44 @@ div[data-role=controlgroup] a[data-role=button]+a[data-role=button] {
 }
 
 .inputLabelFocused {
-    color: #a7c4bc
+    color: #E8BFFB
 }
 
 .listItemIcon {
-    background-color: #2f5d62 !important
+    background-color: #967bb6 !important
 }
 
 .mdl-spinner__layer-1 {
-    border-color: #2f5d62
+    border-color: #967bb6
 }
 
 .mdl-spinner__layer-2 {
-    border-color: #5e8b7e
+    border-color: #c395E4
 }
 
 .mdl-spinner__layer-3 {
-    border-color: #a7c4bc
+    border-color: #E8BFFB
 }
 
 .mdl-spinner__layer-4 {
-    border-color: #dfeeea
+    border-color: #EFCFFB
 }
 
 .countIndicator,
 .fullSyncIndicator,
 .playedIndicator {
-    background: rgba(47, 93, 98, .6);
+    background: rgba(115, 79, 150, .6);
     color: #fff
 }
 
 .playedIndicator {
-    background: rgba(47, 93, 98, .6);
+    background: rgba(115, 79, 150, .6);
     color: #fff
 }
 
 .textActionButton:hover {
     text-decoration: none !important;
-    color: #a7c4bc !important
+    color: #E8BFFB !important
 }
 
 .listItemIcon-transparent {
@@ -832,11 +832,11 @@ div[data-role=controlgroup] a[data-role=button]+a[data-role=button] {
 }
 
 .volume_off {
-    color: #a7c4bc !important
+    color: #E8BFFB !important
 }
 
 .dialog {
-    background-color: #0d7377
+    background-color: #5F4180
 }
 
 .listItem-border {
@@ -849,11 +849,11 @@ div[data-role=controlgroup] a[data-role=button]+a[data-role=button] {
 }
 
 .playstatebutton-icon-played {
-    color: #5e8b7e
+    color: #c395E4
 }
 
 .playstatebutton-icon-played:hover {
-    color: #2f5d62
+    color: #967bb6
 }
 
 :not(.detailImageContainer)>.card:not(.overflowSquareCard) .cardImageContainer::before {
@@ -889,19 +889,19 @@ div[data-role=controlgroup] a[data-role=button]+a[data-role=button] {
 }
 
 .button-accent-flat {
-    color: #5e8b7e !important
+    color: #c395E4 !important
 }
 
 .jstree-default .jstree-wholerow-clicked {
-    background: #5e8b7e !important
+    background: #c395E4 !important
 }
 
 .metadataSidebarIcon {
-    color: #2f5d62
+    color: #967bb6
 }
 
 .jstree-wholerow-hovered {
-    background: #5e8b7e !important
+    background: #c395E4 !important
 }
 
 .collapseContent,
@@ -913,29 +913,29 @@ div[data-role=controlgroup] a[data-role=button]+a[data-role=button] {
 }
 
 .ratingbutton-icon-withrating {
-    color: #2f5d62
+    color: #967bb6
 }
 
 .playerStats-stat-label,
 .sectionTitleTextButton:hover {
-    color: #a7c4bc !important
+    color: #E8BFFB !important
 }
 
 .selectionCommandsPanel {
-    background: #2f5d62
+    background: #967bb6
 }
 
 .itemSelectionPanel {
-    border-top-color: #2f5d62;
+    border-top-color: #967bb6;
     border-top-style: solid;
     border-top-width: 1px;
-    border-right-color: #2f5d62;
+    border-right-color: #967bb6;
     border-right-style: solid;
     border-right-width: 1px;
-    border-bottom-color: #2f5d62;
+    border-bottom-color: #967bb6;
     border-bottom-style: solid;
     border-bottom-width: 1px;
-    border-left-color: #2f5d62;
+    border-left-color: #967bb6;
     border-left-style: solid;
     border-left-width: 1px;
     border-image-outset: 0;
@@ -946,11 +946,11 @@ div[data-role=controlgroup] a[data-role=button]+a[data-role=button] {
 }
 
 .button-submit {
-    background: #2f5d62
+    background: #967bb6
 }
 
 .overview-expand emby-button:hover {
-    color: #2f5d62
+    color: #967bb6
 }
 
 #btnShutdown.raised.emby-button:hover,
@@ -970,8 +970,8 @@ div[data-role=controlgroup] a[data-role=button]+a[data-role=button] {
 }
 
 .raised.emby-button:hover {
-    color: #2f5d62;
-    background: #c9e4c5
+    color: #a688ca;
+    background: #EFCFFB
 }
 
 .fab.btnAddDevice.submit.sectionTitleButton.emby-button:hover,
@@ -991,7 +991,7 @@ div[data-role=controlgroup] a[data-role=button]+a[data-role=button] {
 }
 
 .emby-checkbox-label:hover {
-    color: #a7c4bc
+    color: #E8BFFB
 }
 
 .videoOsdBottom {
@@ -1009,8 +1009,8 @@ div[data-role=controlgroup] a[data-role=button]+a[data-role=button] {
     border-bottom-right-radius: 10px;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
-    color: #2f5d62;
-    background: #a7c4bc;
+    color: #967bb6;
+    background: #E8BFFB;
     box-shadow: 0 3px 3px rgba(0, 0, 0, .2)
 }
 
