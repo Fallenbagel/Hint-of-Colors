@@ -57,6 +57,14 @@ add_header Content-Security-Policy "default-src https: data: blob: http://image.
 - Manually scan media library
 - Refresh the page once done
 
+## To enable skip-intro button (ADVANCED if support for Jellyfin Media Player)
+- Install the plugin https://github.com/ConfusedPolarBear/intro-skipper
+- Either build jmp and/or webclient manually or use the web client modified by ConfusedPolarBear
+- Only then would my css apply to a skip-intro button
+
+[![image](https://user-images.githubusercontent.com/98979876/173202260-a49034b0-a1d6-4352-bd01-02f580d67f0a.png)](https://user-images.githubusercontent.com/98979876/173185100-280dd8ec-e7cc-445e-89a8-88a26580f27b.gif)
+
+
 ## Login Page
 ![image](https://user-images.githubusercontent.com/98979876/173200609-43064591-fec9-4fb5-b8fe-2fd2a31d59da.png)
 ![image](https://user-images.githubusercontent.com/98979876/173200640-35b261ec-4921-40ae-aa77-fd591796e1e6.png)
