@@ -36,19 +36,19 @@ or
 #### Other colors (WIP)
 
 
-## CUSTOM LOGO 
+### CUSTOM LOGO 
 - Remember to replace the `YOUR LOGO URL.PNG/jpg` with your own server logo hosted on any photo hosting website of your choice/or you can place the logo in your web-dir and write `url(../../YOURLOGO.png)`
 ```css
 .adminDrawerLogo img { content: url(YOUR LOGO URL.png/jpg) !important; } imgLogoIcon { content: url(YOUR LOGO URL.png/jpg) !important; } .pageTitleWithLogo { background-image: url(YOUR LOGO URL.png/jpg) !important; }
 ```
 
-## Nginx
+### Nginx
 If you are using nginx as a reverse proxy for Jellyfin, replace the "add_header Content-Security-Policy" in your nginx config with this line below
 ```
 add_header Content-Security-Policy "default-src https: data: blob: http://image.tmdb.org; style-src 'self' 'unsafe-inline' https://fallenbagel.github.io ; script-src 'self' 'unsafe-inline' https://www.gstatic.com/cv/js/sender/v1/cast_sender.js https://www.youtube.com blob:; worker-src 'self' blob:; connect-src 'self'; object-src 'none'; frame-ancestors 'self'";
 ```
 
-## To enable fanart/logo
+### To enable fanart/logo
 - Install the Fanart plugin first
 - Go to Dashboard > Library
 - For each library you have, go to Manage Library
@@ -57,7 +57,7 @@ add_header Content-Security-Policy "default-src https: data: blob: http://image.
 - Manually scan media library
 - Refresh the page once done
 
-## To enable skip-intro button (ADVANCED if support for Jellyfin Media Player)
+### To enable skip-intro button (ADVANCED if support for Jellyfin Media Player)
 - Install the plugin https://github.com/ConfusedPolarBear/intro-skipper
 - Either build jmp and/or webclient manually or use the web client modified by ConfusedPolarBear
 - Only then would my css apply to a skip-intro button
