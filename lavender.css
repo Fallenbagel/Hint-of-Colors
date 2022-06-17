@@ -710,11 +710,11 @@ progress::-webkit-progress-bar {
 }
 
 progress::-moz-progress-bar {
-    background-color: var(--progress-inner)
+    background: var(--progress-inner)
 }
 
 progress::-webkit-progress-value {
-    background-color: var(--progress-inner)
+    background: var(--progress-inner)
 }
 
 #divRunningTasks span {
@@ -1010,7 +1010,7 @@ div[data-role=controlgroup] a[data-role=button]+a[data-role=button] {
 
 .raised.emby-button:hover {
     color: var(--buttons);
-    background: var(--buttons-bg)
+    background: var(--buttons-hover)
 }
 
 .fab.btnAddDevice.submit.sectionTitleButton.emby-button:hover,
@@ -1060,6 +1060,10 @@ div[data-role=controlgroup] a[data-role=button]+a[data-role=button] {
 
 .layout-desktop .detailImageContainer .card {
     top: -3em
+}
+
+.cardImageIcon {
+    position: relative;
 }
 
 .layout-desktop .detailPageSecondaryContainer {
