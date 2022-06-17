@@ -811,7 +811,7 @@ div[data-role=controlgroup] a[data-role=button]+a[data-role=button] {
 
 .toastVisible {
     color: var(--buttons);
-    background: var(--buttons)
+    background: var(--buttons-bg)
 }
 
 @media not all and (min-resolution:.001dpcm) {
