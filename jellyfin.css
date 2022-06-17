@@ -1,32 +1,32 @@
 /* Theme Colours */
 :root {
     --rounding: 10px; /* Sets the roundness of elements */
-    --backdrop-bg: rgba(47, 93, 98, .3); /* Sets colour for the background when backdrops are enabled */
-    --buttons: #2f5d62; /* Sets the colour of the buttons text */
-    --buttons-bg: #c9e4c5; /* Sets the colour of the buttons background */
-    --buttons-hover: #aec4a7; /* Sets the colour of the buttons background when hovered */
-    --buttons-link: #5e8b7e; /* Sets the colour of the buttons text when hovered and a link/href */
-    --dialog-bg: #0d7377; /* Sets the colour of the pop-up dialog background */
+    --backdrop-bg: rgba(13, 43, 112, 0.3); /* Sets colour for the background when backdrops are enabled */
+    --buttons: #00A4DC; /* Sets the colour of the buttons text */
+    --buttons-bg: #101010; /* Sets the colour of the buttons background */
+    --buttons-hover: #a7c0c4; /* Sets the colour of the buttons background when hovered */
+    --buttons-link: #c5c5c5; /* Sets the colour of the buttons text when hovered and a link/href */
+    --dialog-bg: #101010; /* Sets the colour of the pop-up dialog background */
     --card-hover: rgba(0, 0, 0, .3); /* Sets colour for the background when cards are hovered */
     --card-icon: transparent; /* Sets colour for the background of the icon in cards */
-    --card-icon-hover: rgba(190, 167, 196, 0.5); /* Sets colour for background of the icon when cards are hovered */
-    --card-indicator: #2f5d62; /* Sets colour for the background of the indicator on cards */
+    --card-icon-hover: rgba(16, 16, 16, 0.5); /* Sets colour for background of the icon when cards are hovered */
+    --card-indicator: linear-gradient(140deg, #00A4DC, #AA5CC3); /* Sets colour for the background of the indicator on cards */
     --card-indicator-rounding: 0px 0px 0px var(--rounding); /* Sets the roundness of the indicator on cards, use just "var(--rounding)" for completely spherical */
     --card-indicator-margin: 0; /* Sets the margin of the indicator on cards, use just ".25em" for spherical spacing  */
-    --icon-bg-hover: rgba(47, 93, 98, .2); /* Sets colour for the background of the icons when hovered */
-    --progress-outer: rgba(0, 0, 0, .5); /* Sets colour for the background of the progress bar */
+    --icon-bg-hover: transparent; /* Sets colour for the background of the icons when hovered */
+    --progress-outer: #101010; /* Sets colour for the background of the progress bar */
     --progress-outer-border: rgba(195, 167, 196, 0.22); /* Sets colour for the border of the progress bar */
-    --progress-inner: rgba(167, 196, 188, .75); /* Sets colour for the background of the progress bar with progress */
-    --default-card-bg1: #698474; /* Sets the colour of the default card background */
-    --default-card-bg2: #889e81; /* Sets the colour of the default card background */
-    --default-card-bg3: #bac7a7; /* Sets the colour of the default card background */
-    --default-card-bg4: #004445; /* Sets the colour of the default card background */
-    --default-card-bg5: #aec4a7; /* Sets the colour of the default card background */
+    --progress-inner: linear-gradient(140deg, #00A4DC, #AA5CC3); /* Sets colour for the background of the progress bar with progress */
+    --default-card-bg1: #AA5CC3; /* Sets the colour of the default card background */
+    --default-card-bg2: #79109c; /* Sets the colour of the default card background */
+    --default-card-bg3: #00A4DC; /* Sets the colour of the default card background */
+    --default-card-bg4: #108c9c; /* Sets the colour of the default card background */
+    --default-card-bg5: #3357aa; /* Sets the colour of the default card background */
     --collapse-menu-hover: rgba(237, 223, 238, 0.2); /* Sets the colour for hover state on the collapse menu items */
     --dropdown-bg: rgba(238, 223, 238, 0.2); /* Sets the background colour for dropdown menus */
-    --playback-progress: rgba(167, 196, 188, .75); /* Sets the colour of the playback progress bar */
+    --playback-progress: #00A4DC; /* Sets the colour of the playback progress bar */
     --playback-progress-height: 0; /* Sets the height of the playback progress bar on "Continue Watching" */
-    --transcode-progress: rgba(255, 145, 0, 0.3); /* Sets the colour of the transcoding progress bar */
+    --transcode-progress: #ce7a0c; /* Sets the colour of the transcoding progress bar */
     --admin-add: #094e0f; /* Sets the colour of the admin "add new" button text */
     --admin-add-bg: #aee2ae; /* Sets the background colour of the admin "add new" button */
     --admin-refresh: #293b5f; /* Sets the colour of the admin "refresh" button text */

@@ -25,6 +25,7 @@
     --collapse-menu-hover: rgba(220, 208, 255, .2); /* Sets the colour for hover state on the collapse menu items */
     --dropdown-bg: rgba(220, 208, 255, .2); /* Sets the background colour for dropdown menus */
     --playback-progress: rgba(190, 167, 196, 0.75); /* Sets the colour of the playback progress bar */
+    --playback-progress-height: 0; /* Sets the height of the playback progress bar on "Continue Watching" */
     --transcode-progress: rgba(255, 145, 0, 0.3); /* Sets the colour of the transcoding progress bar */
     --admin-add: #094e0f; /* Sets the colour of the admin "add new" button text */
     --admin-add-bg: #aee2ae; /* Sets the background colour of the admin "add new" button */
@@ -609,7 +610,7 @@ video:cue {
 }
 
 .itemProgressBar {
-    height: 2000em;
+    height: var(--playback-progress-height);
     background: #0000
 }
 
