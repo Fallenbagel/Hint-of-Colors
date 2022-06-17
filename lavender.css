@@ -1,3 +1,77 @@
+/* Theme Colours */
+:root {
+    --rounding: 10px; /* Sets the roundness of elements */
+    --backdrop-bg: rgba(115, 79, 150, .3); /* Sets colour for the background when backdrops are enabled */
+    --buttons: #967bb6; /* Sets the colour of the buttons text */
+    --buttons-bg: #c5c5e4; /* Sets the colour of the buttons background */
+    --buttons-hover: #aec4a7; /* Sets the colour of the buttons background when hovered */
+    --buttons-link: #c395E4; /* Sets the colour of the buttons text when hovered and a link/href */
+    --dialog-bg: #5F4180; /* Sets the colour of the pop-up dialog background */
+    --card-hover: rgba(0, 0, 0, .3); /* Sets colour for the background when cards are hovered */
+    --card-icon: transparent; /* Sets colour for the background of the icon in cards */
+    --card-icon-hover: rgba(190, 167, 196, 0.5); /* Sets colour for background of the icon when cards are hovered */
+    --card-indicator: #967bb6; /* Sets colour for the background of the indicator on cards */
+    --card-indicator-rounding: 0px 0px 0px var(--rounding); /* Sets the roundness of the indicator on cards, use just "var(--rounding)" for completely spherical */
+    --card-indicator-margin: 0; /* Sets the margin of the indicator on cards, use just ".25em" for spherical spacing  */
+    --icon-bg-hover: rgba(115, 79, 150, 0); /* Sets colour for the background of the icons when hovered */
+    --progress-outer: rgba(0, 0, 0, .5); /* Sets colour for the background of the progress bar */
+    --progress-outer-border: rgba(177, 156, 217, .22); /* Sets colour for the border of the progress bar */
+    --progress-inner: rgba(177, 156, 217, .75); /* Sets colour for the background of the progress bar with progress */
+    --default-card-bg1: #9d92db; /* Sets the colour of the default card background */
+    --default-card-bg2: #BBBEFE; /* Sets the colour of the default card background */
+    --default-card-bg3: #E6DCFF; /* Sets the colour of the default card background */
+    --default-card-bg4: #D099E2; /* Sets the colour of the default card background */
+    --default-card-bg5: #E8BFFB; /* Sets the colour of the default card background */
+    --collapse-menu-hover: rgba(220, 208, 255, .2); /* Sets the colour for hover state on the collapse menu items */
+    --dropdown-bg: rgba(220, 208, 255, .2); /* Sets the background colour for dropdown menus */
+    --playback-progress: rgba(190, 167, 196, 0.75); /* Sets the colour of the playback progress bar */
+    --transcode-progress: rgba(255, 145, 0, 0.3); /* Sets the colour of the transcoding progress bar */
+    --admin-add: #094e0f; /* Sets the colour of the admin "add new" button text */
+    --admin-add-bg: #aee2ae; /* Sets the background colour of the admin "add new" button */
+    --admin-refresh: #293b5f; /* Sets the colour of the admin "refresh" button text */
+    --admin-refresh-bg: #dbe6fd; /* Sets the background colour of the admin "refresh" button */
+    --admin-restart: #e27802; /* Sets the colour of the admin "restart" button text */
+    --admin-restart-bg: #fcecdd; /* Sets the background colour of the admin "restart" button */
+    --admin-shutdown: red; /* Sets the colour of the admin "shutdown" button text */
+    --admin-shutdown-bg: pink; /* Sets the background colour of the admin "shutdown" button */
+}
+
+@font-face {
+    font-family: 'Netflix Sans';
+    font-weight: 100;
+    src: url(https://assets.nflxext.com/ffe/siteui/fonts/netflix-sans/v3/NetflixSans_W_Th.woff2) format('woff2'), url(https://assets.nflxext.com/ffe/siteui/fonts/netflix-sans/v3/NetflixSans_W_Th.woff) format('woff')
+}
+
+@font-face {
+    font-family: 'Netflix Sans';
+    font-weight: 300;
+    src: url(https://assets.nflxext.com/ffe/siteui/fonts/netflix-sans/v3/NetflixSans_W_Lt.woff2) format('woff2'), url(https://assets.nflxext.com/ffe/siteui/fonts/netflix-sans/v3/NetflixSans_W_Lt.woff) format('woff')
+}
+
+@font-face {
+    font-family: 'Netflix Sans';
+    font-weight: 400;
+    src: url(https://assets.nflxext.com/ffe/siteui/fonts/netflix-sans/v3/NetflixSans_W_Rg.woff2) format('woff2'), url(https://assets.nflxext.com/ffe/siteui/fonts/netflix-sans/v3/NetflixSans_W_Rg.woff) format('woff')
+}
+
+@font-face {
+    font-family: 'Netflix Sans';
+    font-weight: 700;
+    src: url(https://assets.nflxext.com/ffe/siteui/fonts/netflix-sans/v3/NetflixSans_W_Md.woff2) format('woff2'), url(https://assets.nflxext.com/ffe/siteui/fonts/netflix-sans/v3/NetflixSans_W_Md.woff) format('woff')
+}
+
+@font-face {
+    font-family: 'Netflix Sans';
+    font-weight: 800;
+    src: url(https://assets.nflxext.com/ffe/siteui/fonts/netflix-sans/v3/NetflixSans_W_Bd.woff2) format('woff2'), url(https://assets.nflxext.com/ffe/siteui/fonts/netflix-sans/v3/NetflixSans_W_Bd.woff) format('woff')
+}
+
+@font-face {
+    font-family: 'Netflix Sans';
+    font-weight: 900;
+    src: url(https://assets.nflxext.com/ffe/siteui/fonts/netflix-sans/v3/NetflixSans_W_Blk.woff2) format('woff2'), url(https://assets.nflxext.com/ffe/siteui/fonts/netflix-sans/v3/NetflixSans_W_Blk.woff) format('woff')
+}
+
 #loginPage {
     background: url(https://i.imgur.com/Zsalrtb.jpg);
     background-size: cover
@@ -16,29 +90,17 @@
 
 #loginPage .button-submit {
     margin-top: 50px;
-    background: #967bb6
+    background: var(--buttons);
 }
 
 #loginPage .checkboxContainer {
     display: none
 }
 
-#loginPage .emby-input:focus,
-.emby-textarea:focus {
-    border-color: #967bb6
-}
-
 #loginPage .inputLabelFocused,
 .selectLabelFocused,
 .textareaLabelFocused {
-    color: #967bb6
-}
-
-.manualLoginForm {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 70%
+    color: var(--buttons);
 }
 
 #loginPage .sectionTitle {
@@ -47,22 +109,125 @@
 
 #loginPage .button-submit {
     margin-top: 50px;
-    background: #967bb6
+    background: var(--buttons);
 }
 
 #loginPage .checkboxContainer {
     display: none
 }
 
-#loginPage .emby-input:focus,
-.emby-textarea:focus {
-    border-color: #967bb6
+.skinHeader-withBackground {
+  text-shadow: 0 0 5px black;
+  background-color: transparent !important;
 }
 
-#loginPage .inputLabelFocused,
-.selectLabelFocused,
-.textareaLabelFocused {
-    color: #967bb6
+.emby-button-foreground::after {
+  content: "";
+  height: 2px;
+  width: 0%;
+  background: var(--buttons-link);
+  position: absolute;
+  bottom: -35%;
+  left: 50%;
+  transform: translateX(-50%);
+  transition: width 0.15s ease-in-out;
+}
+
+.emby-tab-button:hover .emby-button-foreground::after {
+  width: 75%;
+}
+
+body.force-scroll {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: stretch;
+  justify-content: flex-start;
+  overflow: hidden;
+}
+
+.skinHeader {
+  position: static;
+  width: 100%;
+  align-self: flex-start;
+}
+
+.mainAnimatedPages {
+  height: 100vh;
+  position: relative !important;
+  overflow: hidden;
+}
+
+.libraryPage:not(.noSecondaryNavPage) {
+  padding: 0 !important;
+}
+
+div#itemDetailPage {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  position: relative;
+}
+
+@media (min-width: 40em) {
+  .dashboardDocument .skinBody {
+    left: 20em;
+    width: calc(100vw - 20em);
+  }
+}
+
+div[data-role="page"] {
+  margin: 0 !important;
+  padding: 0 !important;
+  position: static;
+  width: 100%;
+  height: 100%;
+  overflow-y: scroll;
+  -webkit-mask: linear-gradient(
+    to bottom,
+    transparent,
+    black 15px calc(100% - 15px),
+    transparent
+  );
+  mask: linear-gradient(
+    to bottom,
+    transparent,
+    black 15px calc(100% - 15px),
+    transparent
+  );
+}
+
+div[data-role="page"] > * {
+  padding-top: 16px;
+}
+
+.layout-tv .mainAnimatedPages {
+  overflow: visible;
+  mask: none;
+  -webkit-mask: none;
+}
+
+div#videoOsdPage {
+  overflow: hidden !important;
+  margin-top: 0 !important;
+  -webkit-mask: none !important;
+  mask: none !important;
+}
+
+div[data-role="page"]:not(.withTabs) {
+  margin-top: 0 !important;
+}
+
+div#itemBackdrop {
+  display: none;
+}
+
+.skinHeader .emby-button-foreground, .skinHeader .emby-tab-button {
+    text-shadow: 0 0 5px black;
+}
+
+.skinHeader .emby-button-foreground:hover, .skinHeader .emby-tab-button:hover {
+    color: var(--buttons-link)
 }
 
 .skinHeader.semiTransparent {
@@ -81,35 +246,17 @@
 
 .emby-input:focus,
 .emby-textarea:focus {
-    border-color: #967bb6
-}
-
-@media all and (min-width:50em) {
-    .homePage .emby-scroller {
-        margin-right: 0
-    }
-
-    .homePage .emby-scrollbuttons {
-        display: none
-    }
-
-    .homePage .itemsContainer {
-        flex-wrap: wrap
-    }
+    border-color: var(--buttons);
 }
 
 .formDialogHeader {
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px
+    border-top-left-radius: var(--rounding);
+    border-top-right-radius: var(--rounding)
 }
 
 .formDialogFooter {
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px
-}
-
-.cardOverlayContainer {
-    border-radius: 10px !important
+    border-bottom-left-radius: var(--rounding);
+    border-bottom-right-radius: var(--rounding)
 }
 
 .blurhash-canvas,
@@ -154,49 +301,56 @@
 .upNextContainer,
 .upNextDialog-poster-img,
 .visualCardBox {
-    border-radius: 10px !important
+    border-radius: var(--rounding) !important;
 }
 
 .osdPoster img {
-    border-radius: 10px;
-    border: none
+    border-radius: var(--rounding);
+    border: none;
+}
+
+.mdl-slider-background-lower {
+    background-color: var(--buttons-hover);
 }
 
 .mdl-slider::-moz-range-thumb {
-    border-radius: 10px
+    border-radius: var(--rounding);
+    background: var(--buttons-hover);
 }
 
 .mdl-slider::-ms-thumb {
-    border-radius: 10px
+    border-radius: var(--rounding);
+    background: var(--buttons-hover);
 }
 
 .mdl-slider::-webkit-slider-thumb {
-    border-radius: 10px
+    border-radius: var(--rounding);
+    background: var(--buttons-hover);
 }
 
 div[data-role=controlgroup] a[data-role=button]:first-child {
-    border-bottom-left-radius: 10px;
-    border-top-left-radius: 10px
+    border-bottom-left-radius: var(--rounding);
+    border-top-left-radius: var(--rounding)
 }
 
 div[data-role=controlgroup] a[data-role=button]:last-child {
-    border-bottom-right-radius: 10px;
-    border-top-right-radius: 10px
+    border-bottom-right-radius: var(--rounding);
+    border-top-right-radius: var(--rounding)
 }
 
 #dashboardPage .cardContent,
 #dashboardPage .sessionNowPlayingInnerContent {
-    border-radius: 10px 10px 0 0 !important
+    border-radius: var(--rounding) var(--rounding) 0 0 !important
 }
 
 #divVirtualFolders .cardContent,
 #divVirtualFolders .cardImageContainer {
-    border-radius: 10px 10px 0 0 !important
+    border-radius: var(--rounding) var(--rounding) 0 0 !important
 }
 
 #userProfilesPage .cardContent,
 #userProfilesPage .cardImage {
-    border-radius: 10px 10px 0 0 !important
+    border-radius: var(--rounding) var(--rounding) 0 0 !important
 }
 
 .cardOverlayFab-primary {
@@ -204,16 +358,8 @@ div[data-role=controlgroup] a[data-role=button]:last-child {
     transition: 1s
 }
 
-.cardOverlayButtonIcon {
-    background-color: #00000000 !important
-}
-
 .detailLogo {
     display: none
-}
-
-.detailPagePrimaryContainer {
-    background: rgba(0, 0, 0, 0) !important
 }
 
 @media all and (min-width:100em) {
@@ -233,30 +379,9 @@ div[data-role=controlgroup] a[data-role=button]:last-child {
     }
 }
 
-.itemProgressBar {
-    height: 2.5px;
-    background: rgba(0, 0, 0, 0)
-}
-
 .cardIndicators {
-    right: .3em;
-    top: .3em
-}
-
-.paper-icon-button-light:hover {
-    background-color: rgba(0, 0, 0, 0)
-}
-
-.cardOverlayButtonIcon {
-    background-color: #00000000 !important
-}
-
-.cardOverlayContainer {
-    background-color: rgba(0, 0, 0, .7)
-}
-
-.cardOverlayButtonIcon {
-    background-color: rgba(0, 0, 0, .5) !important
+    right: 0;
+    top: 0
 }
 
 .cardOverlayButton {
@@ -320,7 +445,7 @@ div[data-role=controlgroup] a[data-role=button]:last-child {
 .section0 button.itemAction.textActionButton {
     height: 3.5em;
     background: rgba(0, 0, 0, .5);
-    border-radius: 10px
+    border-radius: var(--rounding)
 }
 
 .section0 .overflowBackdropCard,
@@ -342,8 +467,10 @@ div[data-role=controlgroup] a[data-role=button]:last-child {
     }
 }
 
-@media (max-width:75em).raised.homeLibraryButton:hover {
-    transition: filter 1s
+@media (max-width:75em) {
+    .raised.homeLibraryButton:hover {
+        transition: filter 1s
+    }
 }
 
 .raised.homeLibraryButton {
@@ -372,10 +499,6 @@ div[data-role=controlgroup] a[data-role=button]:last-child {
     display: none
 }
 
-.trackSelections {
-    max-width: 22em
-}
-
 #scenesCollapsible {
     display: none
 }
@@ -386,7 +509,11 @@ div[data-role=controlgroup] a[data-role=button]:last-child {
         margin-right: 0
     }
 
-    .homePage .homePage .itemsContainer {
+    .homePage .emby-scrollbuttons {
+        display: none
+    }
+
+    .homePage .itemsContainer {
         flex-wrap: wrap
     }
 }
@@ -428,42 +555,6 @@ div[data-role=controlgroup] a[data-role=button]:last-child {
     }
 }
 
-@font-face {
-    font-family: 'Netflix Sans';
-    font-weight: 100;
-    src: url(https://assets.nflxext.com/ffe/siteui/fonts/netflix-sans/v3/NetflixSans_W_Th.woff2) format('woff2'), url(https://assets.nflxext.com/ffe/siteui/fonts/netflix-sans/v3/NetflixSans_W_Th.woff) format('woff')
-}
-
-@font-face {
-    font-family: 'Netflix Sans';
-    font-weight: 300;
-    src: url(https://assets.nflxext.com/ffe/siteui/fonts/netflix-sans/v3/NetflixSans_W_Lt.woff2) format('woff2'), url(https://assets.nflxext.com/ffe/siteui/fonts/netflix-sans/v3/NetflixSans_W_Lt.woff) format('woff')
-}
-
-@font-face {
-    font-family: 'Netflix Sans';
-    font-weight: 400;
-    src: url(https://assets.nflxext.com/ffe/siteui/fonts/netflix-sans/v3/NetflixSans_W_Rg.woff2) format('woff2'), url(https://assets.nflxext.com/ffe/siteui/fonts/netflix-sans/v3/NetflixSans_W_Rg.woff) format('woff')
-}
-
-@font-face {
-    font-family: 'Netflix Sans';
-    font-weight: 700;
-    src: url(https://assets.nflxext.com/ffe/siteui/fonts/netflix-sans/v3/NetflixSans_W_Md.woff2) format('woff2'), url(https://assets.nflxext.com/ffe/siteui/fonts/netflix-sans/v3/NetflixSans_W_Md.woff) format('woff')
-}
-
-@font-face {
-    font-family: 'Netflix Sans';
-    font-weight: 800;
-    src: url(https://assets.nflxext.com/ffe/siteui/fonts/netflix-sans/v3/NetflixSans_W_Bd.woff2) format('woff2'), url(https://assets.nflxext.com/ffe/siteui/fonts/netflix-sans/v3/NetflixSans_W_Bd.woff) format('woff')
-}
-
-@font-face {
-    font-family: 'Netflix Sans';
-    font-weight: 900;
-    src: url(https://assets.nflxext.com/ffe/siteui/fonts/netflix-sans/v3/NetflixSans_W_Blk.woff2) format('woff2'), url(https://assets.nflxext.com/ffe/siteui/fonts/netflix-sans/v3/NetflixSans_W_Blk.woff) format('woff')
-}
-
 body,
 h1,
 h2,
@@ -496,47 +587,12 @@ video:cue {
     text-shadow: #000 0 0 .2em !important
 }
 
-#itemDetailPage .detailLogo {
-    position: static;
-    margin-left: 32.5%;
-    display: block;
-    -webkit-filter: drop-shadow(0 0 10px rgba(2, 2, 2, .75));
-    filter: drop-shadow(0 0 10px rgba(2, 2, 2, .75));
-    flex-shrink: 0;
-    background-position: 0 50%;
-    margin-top: -8vh
-}
-
-.layout-desktop .detailRibbon {
-    margin-top: 0
-}
-
 .layout-mobile .detailRibbon {
     margin-top: 0 !important
 }
 
-.layout-mobile .detailLogo {
-    display: none !important
-}
-
 .layout-mobile .detailPagePrimaryContainer.padded-left.padded-right.detailRibbon {
     padding-top: 4.5rem !important
-}
-
-#itemDetailPage .itemName.infoText.parentNameLast {
-    display: none
-}
-
-.hide+.detailPageWrapperContainer .itemName {
-    display: block !important
-}
-
-.itemName {
-    margin: .5em 0 !important
-}
-
-.layout-mobile #itemDetailPage .itemName.infoText.parentNameLast {
-    display: block
 }
 
 .backdropImage {
@@ -544,7 +600,7 @@ video:cue {
 }
 
 .backgroundContainer.withBackdrop {
-    background-color: rgba(115, 79, 150, .3)
+    background-color: var(--backdrop-bg)
 }
 
 .layout-desktop .itemBackdrop::after {
@@ -552,23 +608,18 @@ video:cue {
     margin-top: -30px
 }
 
-.innerCardFooter.fullInnerCardFooter.innerCardFooterClear {
-    border-radius: 0 !important;
-    background: rgba(0, 0, 0, .7)
-}
-
 .itemProgressBar {
     height: 2000em;
     background: #0000
 }
 
+.itemProgressBarForeground,
 .playbackProgress>div {
-    background-color: rgba(0, 0, 0, .75)
+    background-color: var(--playback-progress);
 }
 
-.itemProgressBarForeground,
 .transcodingProgress>div {
-    background-color: rgba(0, 0, 0, .3)
+    background-color: var(--transcode-progress) !important;
 }
 
 .innerCardFooter.fullInnerCardFooter.innerCardFooterClear {
@@ -577,134 +628,113 @@ video:cue {
 }
 
 .button-link {
-    color: #c395E4
+    color: var(--buttons-link)
 }
 
 @media (hover:hover) and (pointer:fine) {
     .paper-icon-button-light:hover:not(:disabled) {
-        color: #E8BFFB;
-        background-color: rgba(115, 79, 150, .2)
+        color: var(--buttons-hover);
+        background-color: var(--icon-bg-hover)
     }
 }
 
 .emby-select,
 .emby-select-withcolor {
-    background-color: rgba(220, 208, 255, .2);
+    background-color: var(--dropdown-bg);
     border-style: hidden
 }
 
 .mdl-slider-background-lower {
-    background-color: #E8BFFB
-}
-
-.mdl-slider::-moz-range-thumb {
-    background: #E8BFFB
-}
-
-.mdl-slider::-ms-thumb {
-    background: #E8BFFB
-}
-
-.mdl-slider::-webkit-slider-thumb {
-    background: #E8BFFB
+    background-color: var(--buttons-hover)
 }
 
 .iconOsdProgressInner {
-    background: #E8BFFB
-}
-
-.videoOsdBottom {
-    background: rgba(0, 0, 0, .7);
-    padding-top: 1em
+    background: var(--buttons-hover)
 }
 
 .upNextDialog-countdownText {
-    color: #E8BFFB
+    color: var(--buttons-hover)
 }
 
 .navMenuOption:hover {
-    background: rgba(220, 208, 255, .2)
+    background: var(--collapse-menu-hover)
 }
 
 .block {
-    background-color: #967bb6
+    background-color: var(--buttons);
 }
 
 .checkboxIcon-checked {
-    background-color: #967bb6;
+    background-color: var(--buttons);
     border-style: none
 }
 
 .emby-checkbox:checked+span+.checkboxOutline {
-    background-color: #967bb6;
+    background-color: var(--buttons);
     border-style: none
 }
 
 .defaultCardBackground1 {
-    background-color: #9d92db
+    background-color: var(--default-card-bg1)
 }
 
 .defaultCardBackground2 {
-    background-color: #BBBEFE
+    background-color: var(--default-card-bg2)
 }
 
 .defaultCardBackground3 {
-    background-color: #E6DCFF
+    background-color: var(--default-card-bg3)
 }
 
 .defaultCardBackground4 {
-    background-color: #D099E2
+    background-color: var(--default-card-bg4)
 }
 
 .defaultCardBackground5 {
-    background-color: #E8BFFB
+    background-color: var(--default-card-bg5)
 }
 
 .navMenuOption-selected {
-    background-color: #E8BFFB !important
-}
-
-:root {
-    --swiper-theme-color: #967bb6
+    background-color: var(--buttons-hover) !important
 }
 
 progress {
-    background: rgba(0, 0, 0, .5) !important;
-    border: 1px solid rgba(177, 156, 217, .22)
+    background: var(--progress-outer) !important;
+    border: 1px solid var(--progress-outer-border)
 }
 
 progress::-webkit-progress-bar {
     background: rgba(0, 0, 0, .5) !important;
-    border: 0 solid rgba(177, 156, 217, .22)
+    border: 0 solid var(--progress-outer-border)
 }
 
 progress::-moz-progress-bar {
-    background-color: rgba(177, 156, 217, .75)
+    background-color: var(--progress-inner)
 }
 
 progress::-webkit-progress-value {
-    background-color: rgba(177, 156, 217, .75)
+    background-color: var(--progress-inner)
 }
 
 #divRunningTasks span {
-    color: rgba(177, 156, 217, .75) !important
+    color: var(--progress-inner) !important
 }
 
 .taskProgressOuter {
-    background: rgba(0, 0, 0, .5) !important;
-    border: 1px solid rgba(177, 156, 217, .22)
+    background: var(--progress-outer) !important;
+    border: 1px solid var(--progress-outer-border)
 }
 
 .taskProgressInner {
-    background: rgba(177, 156, 217, .75) !important
+    background: var(--progress-inner) !important
 }
 
 #scheduledTasksPage span {
-    color: rgba(177, 156, 217, .75) !important
+    color: var(--progress-inner) !important
 }
 
 .progressring-spiner {
-    border-color: #E8BFFB;
+    border-color: var(--buttons-hover);
     border-width: .35em
 }
 
@@ -726,7 +756,7 @@ div[data-role=controlgroup] a.ui-btn-active {
 }
 
 a[data-role=button]:hover {
-    background: rgba(187, 190, 254, .8) !important
+    background: var(--buttons-hover) !important
 }
 
 div[data-role=controlgroup] a[data-role=button]+a[data-role=button] {
@@ -734,31 +764,40 @@ div[data-role=controlgroup] a[data-role=button]+a[data-role=button] {
 }
 
 .button-submit:hover {
-    background: rgba(187, 190, 254, .8)
+    background: var(--buttons-hover)
 }
 
 .cardOverlayButtonIcon:hover {
-    background-color: rgba(187, 190, 254, .5) !important
+    background-color: var(--card-icon-hover) !important
 }
 
 .cardOverlayButtonIcon {
-    background-color: rgba(0, 0, 0, 0) !important
+    background-color: var(--card-icon) !important
 }
 
 .cardOverlayContainer {
-    background-color: rgba(0, 0, 0, .3)
+    border-radius: var(--rounding);
+    background-color: var(--card-hover)
 }
 
 .button-flat:hover {
-    color: #967bb6
+    color: var(--buttons);
 }
 
 .actionSheetMenuItem:hover {
-    background-color: #967bb6
+    background-color: var(--buttons);
 }
 
 .listItemIcon:not {
-    background-color: #967bb6 !important
+    background-color: var(--buttons) !important;
+}
+
+.dashboardSection .sectionTitleTextButton > .material-icons.material-icons {
+    margin-left: .5em;
+}
+
+.cardBox.visualCardBox {
+    box-shadow: none;
 }
 
 .dashboardFooter {
@@ -766,12 +805,12 @@ div[data-role=controlgroup] a[data-role=button]+a[data-role=button] {
 }
 
 .button-submit:focus {
-    background-color: #967bb6
+    background-color: var(--buttons);
 }
 
 .toastVisible {
-    color: #967bb6;
-    background: #c5c5e4
+    color: var(--buttons);
+    background: var(--buttons)
 }
 
 @media not all and (min-resolution:.001dpcm) {
@@ -781,50 +820,48 @@ div[data-role=controlgroup] a[data-role=button]+a[data-role=button] {
         }
 
         .backgroundContainer.withBackdrop {
-            background-color: rgba(0, 0, 0, .7)
+            background-color: rgba(0, 0, 0, 0.7)
         }
     }
 }
 
 .inputLabelFocused {
-    color: #E8BFFB
+    color: var(--buttons-hover)
 }
 
 .listItemIcon {
-    background-color: #967bb6 !important
+    background-color: var(--buttons) !important;
 }
 
 .mdl-spinner__layer-1 {
-    border-color: #967bb6
+    border-color: var(--buttons);
 }
 
 .mdl-spinner__layer-2 {
-    border-color: #c395E4
+    border-color: var(--buttons-link)
 }
 
 .mdl-spinner__layer-3 {
-    border-color: #E8BFFB
+    border-color: var(--buttons-hover)
 }
 
 .mdl-spinner__layer-4 {
-    border-color: #EFCFFB
+    border-color: #dfeeea
 }
 
 .countIndicator,
 .fullSyncIndicator,
 .playedIndicator {
-    background: rgba(115, 79, 150, .6);
-    color: #fff
-}
-
-.playedIndicator {
-    background: rgba(115, 79, 150, .6);
-    color: #fff
+    background: var(--card-indicator) !important;
+    border-radius: var(--card-indicator-rounding) !important;
+    margin: var(--card-indicator-margin) !important;
+    padding: 0.1em;
+    color: white;
 }
 
 .textActionButton:hover {
     text-decoration: none !important;
-    color: #E8BFFB !important
+    color: var(--buttons-hover) !important
 }
 
 .listItemIcon-transparent {
@@ -832,11 +869,11 @@ div[data-role=controlgroup] a[data-role=button]+a[data-role=button] {
 }
 
 .volume_off {
-    color: #E8BFFB !important
+    color: var(--buttons-hover) !important
 }
 
 .dialog {
-    background-color: #5F4180
+    background-color: var(--dialog-bg);
 }
 
 .listItem-border {
@@ -849,11 +886,11 @@ div[data-role=controlgroup] a[data-role=button]+a[data-role=button] {
 }
 
 .playstatebutton-icon-played {
-    color: #c395E4
+    color: var(--buttons-link)
 }
 
 .playstatebutton-icon-played:hover {
-    color: #967bb6
+    color: var(--buttons);
 }
 
 :not(.detailImageContainer)>.card:not(.overflowSquareCard) .cardImageContainer::before {
@@ -881,6 +918,7 @@ div[data-role=controlgroup] a[data-role=button]+a[data-role=button] {
     bottom: 0;
     background: inherit;
     background-size: cover;
+    background-image: none !important;
     transition: .4s
 }
 
@@ -889,19 +927,19 @@ div[data-role=controlgroup] a[data-role=button]+a[data-role=button] {
 }
 
 .button-accent-flat {
-    color: #c395E4 !important
+    color: var(--buttons-link) !important
 }
 
 .jstree-default .jstree-wholerow-clicked {
-    background: #c395E4 !important
+    background: var(--buttons-link) !important
 }
 
 .metadataSidebarIcon {
-    color: #967bb6
+    color: var(--buttons);
 }
 
 .jstree-wholerow-hovered {
-    background: #c395E4 !important
+    background: var(--buttons-link) !important
 }
 
 .collapseContent,
@@ -913,29 +951,29 @@ div[data-role=controlgroup] a[data-role=button]+a[data-role=button] {
 }
 
 .ratingbutton-icon-withrating {
-    color: #967bb6
+    color: var(--buttons);
 }
 
 .playerStats-stat-label,
 .sectionTitleTextButton:hover {
-    color: #E8BFFB !important
+    color: var(--buttons-hover) !important
 }
 
 .selectionCommandsPanel {
-    background: #967bb6
+    background: var(--buttons);
 }
 
 .itemSelectionPanel {
-    border-top-color: #967bb6;
+    border-top-color: var(--buttons);
     border-top-style: solid;
     border-top-width: 1px;
-    border-right-color: #967bb6;
+    border-right-color: var(--buttons);
     border-right-style: solid;
     border-right-width: 1px;
-    border-bottom-color: #967bb6;
+    border-bottom-color: var(--buttons);
     border-bottom-style: solid;
     border-bottom-width: 1px;
-    border-left-color: #967bb6;
+    border-left-color: var(--buttons);
     border-left-style: solid;
     border-left-width: 1px;
     border-image-outset: 0;
@@ -946,39 +984,39 @@ div[data-role=controlgroup] a[data-role=button]+a[data-role=button] {
 }
 
 .button-submit {
-    background: #967bb6
+    background: var(--buttons);
 }
 
 .overview-expand emby-button:hover {
-    color: #967bb6
+    color: var(--buttons);
 }
 
 #btnShutdown.raised.emby-button:hover,
 #deviceDeleteAll.raised.button-alt.headerHelpButton.emby-button:hover {
-    color: red;
-    background: pink
+    color: var(--admin-shutdown);
+    background: var(--admin-shutdown-bg)
 }
 
 #btnRestartServer.raised.emby-button:hover {
-    color: #e27802;
-    background: #fcecdd
+    color: var(--admin-restart);
+    background: var(--admin-restart-bg)
 }
 
 .raised.btnRefresh.emby-button:hover {
-    color: #293b5f;
-    background: #dbe6fd
+    color: var(--admin-refresh);
+    background: var(--admin-refresh-bg)
 }
 
 .raised.emby-button:hover {
-    color: #a688ca;
-    background: #EFCFFB
+    color: var(--buttons);
+    background: var(--buttons-bg)
 }
 
 .fab.btnAddDevice.submit.sectionTitleButton.emby-button:hover,
 .fab.btnAddProvider.submit.emby-button:hover,
 .fab.btnAddUser.submit.sectionTitleButton.emby-button:hover {
-    color: #21094e;
-    background: #beaee2
+    color: var(--admin-add);
+    background: var(--admin-add-bg)
 }
 
 .sessionCardFooter.cardFooter,
@@ -986,17 +1024,18 @@ div[data-role=controlgroup] a[data-role=button]+a[data-role=button] {
     font-family: 'Netflix Sans';
     font-size: larger;
     color: #ffffff;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px
+    border-bottom-left-radius: var(--rounding);
+    border-bottom-right-radius: var(--rounding)
 }
 
 .emby-checkbox-label:hover {
-    color: #E8BFFB
+    color: var(--buttons-hover)
 }
 
 .videoOsdBottom {
     background-color: rgba(0, 0, 0, 0) !important;
-    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, .4)) !important
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, .4)) !important;
+    padding-top: 1em;
 }
 
 .headerTop {
@@ -1005,17 +1044,25 @@ div[data-role=controlgroup] a[data-role=button]+a[data-role=button] {
 }
 
 .sliderBubble {
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-    color: #967bb6;
-    background: #E8BFFB;
+    border-bottom-left-radius: var(--rounding);
+    border-bottom-right-radius: var(--rounding);
+    border-top-left-radius: var(--rounding);
+    border-top-right-radius: var(--rounding);
+    color: var(--buttons);
+    background: var(--buttons-hover);
     box-shadow: 0 3px 3px rgba(0, 0, 0, .2)
 }
 
 .subtitleSyncContainer {
     background: rgba(0, 0, 0, .5)
+}
+
+.layout-desktop .detailImageContainer .card {
+    top: -3em
+}
+
+.layout-desktop .detailPageSecondaryContainer {
+    margin-top: -1.75em
 }
 
 /*Tweak series/movie/album title screen*/
@@ -1025,6 +1072,10 @@ div[data-role=controlgroup] a[data-role=button]+a[data-role=button] {
 
 .detailSectionContent {
     max-width: 66em;
+}
+
+.layout-desktop .detailSection {
+    margin-top: 1em;
 }
 
 .trackSelections {
@@ -1041,6 +1092,7 @@ div[data-role=controlgroup] a[data-role=button]+a[data-role=button] {
 
 .layout-desktop .detailRibbon {
     background: rgba(0, 0, 0, 0) !important;
+    margin-top: 0;
 }
 
 @media all and (min-width: 32em) {
@@ -1049,39 +1101,39 @@ div[data-role=controlgroup] a[data-role=button]+a[data-role=button] {
     }
 
     .layout-desktop .detailRibbon {
-        margin-top: 13vh;
+        margin-top: 20vh;
     }
 }
 
 #itemDetailPage .detailLogo {
-    position: static;
-    margin-left: 32.5%;
+    position: absolute;
     display: block;
-    -webkit-filter: drop-shadow(0 0 10px rgba(2, 2, 2, 0.75));
-    /*! filter: drop-shadow(0 0 10px rgba(2, 2, 2, 0.75)); */
-    flex-shrink: 0;
+    left: 0;
+    margin-top: 0;
+    margin-left: 32.5%;
+    max-height: 100px;
     background-position: 0 50%;
-    margin-top: 10vh;
-    margin-bottom: -5em;
+    -webkit-filter: drop-shadow(0 0 10px rgba(2, 2, 2, .75));
+    filter: drop-shadow(0 0 10px rgba(2, 2, 2, .75));
+}
+
+.layout-mobile .itemBackdrop {
+    margin-top: 0;
 }
 
 .layout-mobile .detailLogo {
     display: none !important;
 }
 
-#itemDetailPage .itemName.infoText.parentNameLast {
+#itemDetailPage .itemName.infoText.parentNameLast, #itemDetailPage .parentName.focuscontainer-x {
     display: none;
 }
 
-.hide+.detailPageWrapperContainer .itemName {
+.hide+.detailPageWrapperContainer .itemName, .hide+.detailPageWrapperContainer .parentName {
     display: block !important;
 }
 
-.itemName {
-    margin: .5em 0 !important;
-}
-
-.layout-mobile #itemDetailPage .itemName.infoText.parentNameLast {
+.layout-mobile #itemDetailPage .itemName.infoText.parentNameLast, .layout-mobile #itemDetailPage .parentName.focuscontainer-x {
     display: block;
 }
 
@@ -1226,7 +1278,7 @@ div[data-role=controlgroup] a[data-role=button]+a[data-role=button] {
 @media (hover:hover) and (pointer:fine) {
     .skipIntro .paper-icon-button-light:hover:not(:disabled) {
         color: black !important;
-        background-color: rgba(115, 79, 150, 0) !important;
+        background-color: transparent !important;
     }
 }
 
