@@ -1,6 +1,11 @@
 #loginPage {
-    background: url(https://i.imgur.com/Zsalrtb.jpg);
+    background: url(https://raw.githubusercontent.com/Fallenbagel/Hint-of-Colors/main/img/Zsalrtb_digital_art_x4.png);
     background-size: cover
+    top:0px; bottom: 0px;
+    height: 100%;
+    background-repeat: repeat;
+    position: absolute;
+    overflow-x: scroll;
 }
 
 .manualLoginForm {
@@ -497,14 +502,14 @@ video:cue {
 }
 
 #itemDetailPage .detailLogo {
-    position: static;
-    margin-left: 32.5%;
-    display: block;
-    -webkit-filter: drop-shadow(0 0 10px rgba(2, 2, 2, .75));
-    filter: drop-shadow(0 0 10px rgba(2, 2, 2, .75));
-    flex-shrink: 0;
-    background-position: 0 50%;
-    margin-top: -8vh
+  position: relative;
+  margin-left: 56.5%;
+  display: block;
+  -webkit-filter: drop-shadow(0 0 10px rgba(2, 2, 2, 0.75));
+  filter: drop-shadow(0 0 10px rgba(2, 2, 2, 0.75));
+  flex-shrink: 0;
+  background-position: 0 50%;
+  margin-top: -4vh;
 }
 
 .layout-desktop .detailRibbon {
@@ -1032,7 +1037,8 @@ div[data-role=controlgroup] a[data-role=button]+a[data-role=button] {
 }
 
 .detailLogo {
-    display: none;
+  width: 35vw;
+  height: 16vh;
 }
 
 .detailPagePrimaryContainer {
@@ -1051,18 +1057,6 @@ div[data-role=controlgroup] a[data-role=button]+a[data-role=button] {
     .layout-desktop .detailRibbon {
         margin-top: 13vh;
     }
-}
-
-#itemDetailPage .detailLogo {
-    position: static;
-    margin-left: 32.5%;
-    display: block;
-    -webkit-filter: drop-shadow(0 0 10px rgba(2, 2, 2, 0.75));
-    /*! filter: drop-shadow(0 0 10px rgba(2, 2, 2, 0.75)); */
-    flex-shrink: 0;
-    background-position: 0 50%;
-    margin-top: 10vh;
-    margin-bottom: -5em;
 }
 
 .layout-mobile .detailLogo {
