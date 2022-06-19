@@ -502,14 +502,21 @@ video:cue {
 }
 
 #itemDetailPage .detailLogo {
-  position: relative;
-  margin-left: 56.5%;
-  display: block;
-  -webkit-filter: drop-shadow(0 0 10px rgba(2, 2, 2, 0.75));
-  filter: drop-shadow(0 0 10px rgba(2, 2, 2, 0.75));
-  flex-shrink: 0;
-  background-position: 0 50%;
-  margin-top: -4vh;
+    position: relative;
+    margin-left: 56.5%;
+    display: block;
+    -webkit-filter: drop-shadow(0 0 10px rgba(2, 2, 2, 0.75));
+    filter: drop-shadow(0 0 10px rgba(2, 2, 2, 0.75));
+    flex-shrink: 0;
+    background-position: 0 50%;
+    margin-bottom: -8vh;
+    margin-top: 2em;
+    max-height: 100px;
+}
+
+#itemDetailPage .detailPagePrimaryContent {
+    position: relative;
+    margin-top: -5vh;
 }
 
 .layout-desktop .detailRibbon {
@@ -526,10 +533,6 @@ video:cue {
 
 .layout-mobile .detailPagePrimaryContainer.padded-left.padded-right.detailRibbon {
     padding-top: 4.5rem !important
-}
-
-#itemDetailPage .itemName.infoText.parentNameLast {
-    display: none
 }
 
 .hide+.detailPageWrapperContainer .itemName {
@@ -1055,7 +1058,7 @@ div[data-role=controlgroup] a[data-role=button]+a[data-role=button] {
     }
 
     .layout-desktop .detailRibbon {
-        margin-top: 13vh;
+        margin-top: 15vh;
     }
 }
 
@@ -1063,7 +1066,7 @@ div[data-role=controlgroup] a[data-role=button]+a[data-role=button] {
     display: none !important;
 }
 
-#itemDetailPage .itemName.infoText.parentNameLast {
+#itemDetailPage .itemName.infoText.parentNameLast, #itemDetailPage .parentName.focuscontainer-x {
     display: none;
 }
 
