@@ -4,7 +4,7 @@
     --backdrop-bg: rgba(115, 79, 150, .3); /* Sets colour for the background when backdrops are enabled */
     --buttons: #967bb6; /* Sets the colour of the buttons text */
     --buttons-bg: #c5c5e4; /* Sets the colour of the buttons background */
-    --buttons-hover: #aec4a7; /* Sets the colour of the buttons background when hovered */
+    --buttons-hover: #EFCFFB; /* Sets the colour of the buttons background when hovered */
     --buttons-link: #c395E4; /* Sets the colour of the buttons text when hovered and a link/href */
     --dialog-bg: #5F4180; /* Sets the colour of the pop-up dialog background */
     --card-hover: rgba(0, 0, 0, .3); /* Sets colour for the background when cards are hovered */
@@ -75,7 +75,11 @@
 
 #loginPage {
     background: url(https://i.imgur.com/Zsalrtb.jpg);
-    background-size: cover
+    background-size: cover;
+    margin-top: -55px !important;
+    padding-top: 100px !important;
+    position: fixed;
+    z-index: 10;
 }
 
 .manualLoginForm {
@@ -178,7 +182,7 @@ div#itemDetailPage {
 }
 
 div[data-role="page"] {
-  margin: 0 !important;
+  margin: 0 auto !important;
   padding: 0 !important;
   position: static;
   width: 100%;
@@ -213,6 +217,7 @@ div#videoOsdPage {
   margin-top: 0 !important;
   -webkit-mask: none !important;
   mask: none !important;
+  position: fixed;
 }
 
 div[data-role="page"]:not(.withTabs) {
@@ -1288,9 +1293,9 @@ div[data-role=controlgroup] a[data-role=button]+a[data-role=button] {
 }
 
 .skipIntro {
-    padding: 0 1px;
+    padding: 0 1px !important;
     position: absolute;
-    right: 10em;
+    right: 10%;
     top: 80vh;
     background-color: rgba(25, 25, 25, 0.66);
     border: 1px solid;
@@ -1301,6 +1306,10 @@ div[data-role=controlgroup] a[data-role=button]+a[data-role=button] {
     -webkit-transition: ease-out 0.4s;
     -moz-transition: ease-out 0.4s;
     transition: ease-out 0.4s;
+}
+
+.skipIntro .skip_next {
+    margin-left: 0.1em;
 }
 
 .skipIntro:hover {

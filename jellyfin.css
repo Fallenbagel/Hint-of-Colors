@@ -75,7 +75,11 @@
 
 #loginPage {
     background: url(https://i.imgur.com/Zsalrtb.jpg);
-    background-size: cover
+    background-size: cover;
+    margin-top: -55px !important;
+    padding-top: 100px !important;
+    position: fixed;
+    z-index: 10;
 }
 
 .manualLoginForm {
@@ -213,6 +217,7 @@ div#videoOsdPage {
   margin-top: 0 !important;
   -webkit-mask: none !important;
   mask: none !important;
+  position: fixed;
 }
 
 div[data-role="page"]:not(.withTabs) {
@@ -1288,9 +1293,9 @@ div[data-role=controlgroup] a[data-role=button]+a[data-role=button] {
 }
 
 .skipIntro {
-    padding: 0 1px;
+    padding: 0 1px !important;
     position: absolute;
-    right: 10em;
+    right: 10%;
     top: 80vh;
     background-color: rgba(25, 25, 25, 0.66);
     border: 1px solid;
@@ -1301,6 +1306,10 @@ div[data-role=controlgroup] a[data-role=button]+a[data-role=button] {
     -webkit-transition: ease-out 0.4s;
     -moz-transition: ease-out 0.4s;
     transition: ease-out 0.4s;
+}
+
+.skipIntro .skip_next {
+    margin-left: 0.1em;
 }
 
 .skipIntro:hover {
