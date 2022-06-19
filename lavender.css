@@ -540,7 +540,12 @@ video:cue {
 }
 
 .itemName {
-    margin: .5em 0 !important
+    margin: .5em 0 !important;
+    margin-top: 0px;
+    margin-bottom: 0.5em;
+    margin-left: 0px;
+    position: relative;
+    left: -2em
 }
 
 .layout-mobile #itemDetailPage .itemName.infoText.parentNameLast {
