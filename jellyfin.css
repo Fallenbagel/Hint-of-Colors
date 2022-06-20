@@ -524,10 +524,6 @@ div[data-role=controlgroup] a[data-role=button]:last-child {
     padding: 1.75em 1.7em
 }
 
-.itemDetailPage .moreFromSeasonSection {
-    display: none !important
-}
-
 @media only screen and (max-device-width:429px) and (max-device-height:927px) and (-webkit-device-pixel-ratio:3) {
     .layout-mobile #itemDetailPage .detailLogo {
         height: 35%;
