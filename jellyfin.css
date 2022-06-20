@@ -596,6 +596,10 @@ video:cue {
     background-color: var(--backdrop-bg)
 }
 
+.layout-desktop .itemBackdrop {
+    display: none;
+}
+
 .layout-desktop .itemBackdrop::after {
     opacity: 0;
     margin-top: -30px
