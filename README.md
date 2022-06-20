@@ -3,7 +3,6 @@ Jellyfin CSS Theme
 
 Hint of Colors is a fork of Hint of Green CSS but with different colors (main being lavender but it's up to your choice). Although the green theme looks similar to hint of green, it is heavily modified to my liking (includes library in mobile, profile pictures, better login screen, better item logo,....etc.)
 
-<sub><sup> * (Blue, orange, red, etc; WIP). </sup></sub>
 
 ## Tested on
 - Chrome, Firefox, Safari and common Jellyfin applications
@@ -33,8 +32,17 @@ or
 @import url('https://fallenbagel.github.io/Hint-of-Colors/green.css');
 ```
 or
-#### Other colors (WIP)
+#### Jellyfin:
+```css
+@import url('https://fallenbagel.github.io/Hint-of-Colors/Jellyfin.css');
+```
 
+### CUSTOMISATION (Your own Colors!):
+The CSS is now optimised and the colors are now stored at the top of each CSS. You could create your own colors by copying all of it and then either pasting it in a place where you can host or in the custom CSS itself and replacing the colors with your own. 
+
+In addition, even some parts like the looks of the theme can be changed in from those parts. There are comments next to each.
+
+<sub><sup>@Lubricantjam Thank you so much for the optimisations!</sup></sub>
 
 ### CUSTOM LOGO 
 - Remember to replace the `YOUR LOGO URL.PNG/jpg` with your own server logo hosted on any photo hosting website of your choice/or you can place the logo in your web-dir and write `url(../../YOURLOGO.png)`
