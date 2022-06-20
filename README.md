@@ -87,14 +87,13 @@ https://user-images.githubusercontent.com/98979876/173202316-a194406d-5b76-4b6c-
 ![image](https://user-images.githubusercontent.com/98979876/173200750-0c3a5fa0-5697-454f-a953-4e60a6c96463.png)
 
 #### Item Detail Movies
-![image](https://user-images.githubusercontent.com/98979876/173201082-128b037e-f2f5-48f6-86e6-7c363cb629e5.png)
-![image](https://user-images.githubusercontent.com/98979876/173201108-7cabe70a-a128-4bcf-9bc4-134798104b2c.png)
+![image](https://user-images.githubusercontent.com/98979876/174671925-c4870984-8578-419d-af73-1f2d8d7bd3f5.png)
 
 #### Item Detail Series
-![image](https://user-images.githubusercontent.com/98979876/173201125-70eb74b9-7e02-4f08-ba09-aa9b552d17b5.png)
-![image](https://user-images.githubusercontent.com/98979876/173201137-dc2a9c48-8fa8-4dba-84b9-592300f8e1ce.png)
-![image](https://user-images.githubusercontent.com/98979876/173201152-be92cdff-3485-47fb-8f08-035b4b7bb1fe.png)
-![image](https://user-images.githubusercontent.com/98979876/173201161-f8202548-d300-40db-a326-c2768ad459bd.png)
+![image](https://user-images.githubusercontent.com/98979876/174671661-27f0a595-a992-4bdc-8687-6e6439e91670.png)
+![image](https://user-images.githubusercontent.com/98979876/174671879-525375f7-904d-4c28-b7e2-129d41ce242f.png)
+![image](https://user-images.githubusercontent.com/98979876/174671783-a00c1d4b-bd7b-47da-88f4-847b418565e4.png)
+![image](https://user-images.githubusercontent.com/98979876/174671806-195cf22a-33ca-4cb9-a9bf-fd5514df16ed.png)
 
 
 #### Dashboard
