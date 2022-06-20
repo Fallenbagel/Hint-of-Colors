@@ -584,6 +584,7 @@ video:cue {
     text-shadow: #000 0 0 .2em !important
 }
 
+
 .layout-mobile .detailRibbon {
     margin-top: 0 !important
 }
@@ -1098,7 +1099,7 @@ div[data-role=controlgroup] a[data-role=button]+a[data-role=button] {
 
 @media all and (min-width: 32em) {
     .layout-desktop .detailRibbon {
-        margin-top: 20vh;
+
     }
 }
 
