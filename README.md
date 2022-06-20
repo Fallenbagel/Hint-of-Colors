@@ -93,7 +93,7 @@ https://user-images.githubusercontent.com/98979876/173202316-a194406d-5b76-4b6c-
 ![image](https://user-images.githubusercontent.com/98979876/174671661-27f0a595-a992-4bdc-8687-6e6439e91670.png)
 ![image](https://user-images.githubusercontent.com/98979876/174671879-525375f7-904d-4c28-b7e2-129d41ce242f.png)
 ![image](https://user-images.githubusercontent.com/98979876/174671783-a00c1d4b-bd7b-47da-88f4-847b418565e4.png)
-![image](https://user-images.githubusercontent.com/98979876/174671806-195cf22a-33ca-4cb9-a9bf-fd5514df16ed.png)
+![image](https://user-images.githubusercontent.com/98979876/174674353-9962c9cd-ba96-49ee-b224-31c81c6dba0f.png)
 
 
 #### Dashboard
