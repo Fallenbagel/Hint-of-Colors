@@ -1080,7 +1080,8 @@ div[data-role=controlgroup] a[data-role=button]+a[data-role=button] {
 }
 
 .detailLogo {
-    display: none;
+  width: 35vw;
+  height: 16vh;
 }
 
 .detailPagePrimaryContainer {
