@@ -224,10 +224,6 @@ div[data-role="page"]:not(.withTabs) {
   margin-top: 0 !important;
 }
 
-div#itemBackdrop {
-  display: none;
-}
-
 .skinHeader .emby-button-foreground, .skinHeader .emby-tab-button {
     text-shadow: 0 0 5px black;
 }
@@ -377,11 +373,6 @@ div[data-role=controlgroup] a[data-role=button]:last-child {
 @media all and (min-width:32em) and (max-width:100em) {
     .itemBackdrop::after {
         background-color: rgba(0, 0, 0, .1) !important
-    }
-
-    .itemBackdrop {
-        height: 10em !important;
-        background-image: none !important
     }
 }
 
@@ -595,10 +586,6 @@ video:cue {
 
 .layout-mobile .detailRibbon {
     margin-top: 0 !important
-}
-
-.layout-mobile .detailPagePrimaryContainer.padded-left.padded-right.detailRibbon {
-    padding-top: 4.5rem !important
 }
 
 .backdropImage {
@@ -1106,10 +1093,6 @@ div[data-role=controlgroup] a[data-role=button]+a[data-role=button] {
 }
 
 @media all and (min-width: 32em) {
-    .itemBackdrop {
-        display: none;
-    }
-
     .layout-desktop .detailRibbon {
         margin-top: 20vh;
     }
@@ -1129,6 +1112,7 @@ div[data-role=controlgroup] a[data-role=button]+a[data-role=button] {
 
 .layout-mobile .itemBackdrop {
     margin-top: 0;
+    flex-shrink: 0;
 }
 
 .layout-mobile .detailLogo {
