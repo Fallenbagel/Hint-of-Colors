@@ -42,7 +42,7 @@ The CSS is now optimised and the colors are now stored at the top of each CSS. Y
 
 In addition, even some parts like the looks of the theme can be changed in from those parts. There are comments next to each.
 
-<sub><sup>@Lubricantjam Thank you so much for the optimisations!</sup></sub>
+_@Lubricantjam Thank you so much for the optimisations!_
 
 ### CUSTOM LOGO 
 - Remember to replace the `YOUR LOGO URL.PNG/jpg` with your own server logo hosted on any photo hosting website of your choice/or you can place the logo in your web-dir and write `url(../../YOURLOGO.png)`
