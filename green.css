@@ -517,7 +517,21 @@ div[data-role=controlgroup] a[data-role=button]:last-child {
 .headerTabs.sectionTabs {
     text-size-adjust: 110%;
     font-size: 110%;
-    margin-top: -4%
+    width: auto;
+    align-self: center;
+}
+
+.sectionTabs{
+    position: absolute;
+}
+
+ @media (min-width: 100em){
+    .headerTabs {
+    align-self: center;
+   position: absolute;
+   width: auto;
+   margin-top: 0em !important
+   }
 }
 
 .pageTitle {
