@@ -159,7 +159,11 @@ body.force-scroll {
 }
 
 .libraryPage:not(.noSecondaryNavPage) {
-  padding: 0 !important;
+    padding-top: 2em !important;
+}
+  
+.layout-mobile .libraryPage:not(.noSecondaryNavPage) {
+    padding-top: 4em !important;
 }
 
 div#itemDetailPage {
@@ -431,7 +435,7 @@ div[data-role=controlgroup] a[data-role=button]:last-child {
 .section0 .itemsContainer {
     align-items: center;
     justify-content: center;
-    margin-top: 84px;
+    margin-top: 30px;
 }
 
 .section0 button.itemAction.textActionButton {
@@ -512,7 +516,8 @@ div[data-role=controlgroup] a[data-role=button]:last-child {
 
 .headerTabs.sectionTabs {
     text-size-adjust: 110%;
-    font-size: 110%
+    font-size: 110%;
+    margin-top: -4%
 }
 
 .pageTitle {
