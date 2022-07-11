@@ -525,6 +525,18 @@ div[data-role=controlgroup] a[data-role=button]:last-child {
     position: absolute;
 }
 
+.layout-mobile .headerTabs.sectionTabs {
+    text-size-adjust: 110%;
+    font-size: 110%;
+    width: auto;
+    align-self: center;
+}
+
+.layout-mobile .sectionTabs{
+    position: relative;
+    margin-top: -1em;
+}
+
  @media (min-width: 100em){
     .headerTabs {
     align-self: center;
