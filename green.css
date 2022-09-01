@@ -82,6 +82,17 @@
     z-index: 10;
 }
 
+/*Hide "manual" and "forgot" buttons*/
+#loginPage .raised.cancel.block.btnForgotPassword.emby-button {
+    display: none;
+ }
+   
+ /*Hide "please login" text, margin is to prevent login form moving too far up*/
+ #loginPage h1 {display: none}
+ #loginPage .padded-left.padded-right.padded-bottom-page {
+     margin-top: 50px
+ }
+
 .manualLoginForm {
     display: block;
     margin-left: auto;
@@ -480,7 +491,7 @@ div[data-role=controlgroup] a[data-role=button]:last-child {
 
 #loginPage .readOnlyContent,
 #loginPage form {
-    max-width: 44em
+    max-width: 22em
 }
 
 #loginPage h1 {
@@ -499,7 +510,6 @@ div[data-role=controlgroup] a[data-role=button]:last-child {
     display: none
 }
 
-
 @media all and (min-width:50em) {
     .homePage .emby-scroller {
         margin-right: 0
@@ -514,36 +524,39 @@ div[data-role=controlgroup] a[data-role=button]:last-child {
     }
 }
 
-.headerTabs.sectionTabs {
-    text-size-adjust: 110%;
-    font-size: 110%;
-    width: auto;
-    align-self: center;
+@media all and (max-width: 100em) {
+    .withSectionTabs .headerTop {
+        padding-bottom: 0.55em;
+    }
+
+.sectionTabs {
+   font-size: 110%;
+   font-size: 110%;
+   width: auto;
+   align-self: center;
+   position: absolute;
 }
 
-.sectionTabs{
-    position: absolute;
+.layout-tv .sectionTabs {
+    width: auto;
+}
 }
 
 .layout-mobile .headerTabs.sectionTabs {
     text-size-adjust: 110%;
     font-size: 110%;
-    width: auto;
-    align-self: center;
-}
-
-.layout-mobile .sectionTabs{
     position: relative;
+    align-self: auto;
     margin-top: -1em;
 }
 
- @media (min-width: 100em){
-    .headerTabs {
-    align-self: center;
-   position: absolute;
-   width: auto;
-   margin-top: 0em !important
-   }
+.sectionTitleTextButton {
+    margin-top: 1em !important;
+  }
+
+.headerTabs.sectionTabs {
+  text-size-adjust: 110%;
+  font-size: 110%;
 }
 
 .pageTitle {
