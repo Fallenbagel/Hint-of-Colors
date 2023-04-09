@@ -45,7 +45,7 @@ In addition, even some parts like the looks of the theme can be changed in from 
 _@Lubricantjam Thank you so much for the optimisations!_
 
 ### CUSTOM LOGO 
-- Remember to replace the `YOUR LOGO URL.PNG/jpg` with your own server logo hosted on any photo hosting website of your choice/or you can place the logo in your web-dir and write `url(../../YOURLOGO.png)`
+- You can also replace the `YOUR LOGO URL.PNG/jpg` with your own server logo hosted on any photo hosting website of your choice/or you can place the logo in your web-dir and write `url(../../YOURLOGO.png)`
 ```css
 .adminDrawerLogo img { content: url(YOUR LOGO URL.png/jpg) !important; } imgLogoIcon { content: url(YOUR LOGO URL.png/jpg) !important; } .pageTitleWithLogo { background-image: url(YOUR LOGO URL.png/jpg) !important; }
 ```
@@ -65,9 +65,9 @@ add_header Content-Security-Policy "default-src https: data: blob: http://image.
 - Manually scan media library
 - Refresh the page once done
 
-### To enable skip-intro button (ADVANCED if support for Jellyfin Media Player)
+### To enable skip-intro button (Jellyfin Media Player 1.8.0+ has unofficialsupport)
 - Install the plugin https://github.com/ConfusedPolarBear/intro-skipper
-- Either build jmp and/or webclient manually or use the web client modified by ConfusedPolarBear
+- Either use jmp and/or webclient manually or use the web client modified by ConfusedPolarBear
 - Only then would my css apply to a skip-intro button
 
 https://user-images.githubusercontent.com/98979876/173202316-a194406d-5b76-4b6c-b736-804e37482cc7.mp4
