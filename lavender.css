@@ -912,11 +912,6 @@ div[data-role=controlgroup] a[data-role=button]+a[data-role=button] {
     border-style: none
 }
 
-.endsAt,
-.endsAtText {
-    display: none !important
-}
-
 .playstatebutton-icon-played {
     color: var(--buttons-link)
 }
