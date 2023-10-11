@@ -124,7 +124,7 @@ https://user-images.githubusercontent.com/98979876/173202316-a194406d-5b76-4b6c-
 
 #### Play Card Hover
 
-![video](./img/hover%20on%20video.webm)
+[hover on video.webm](https://github.com/Fallenbagel/Hint-of-Colors/assets/98979876/c02009d8-e2c6-442f-8f21-788d33d8dbac)
 
 #### Item Detail Movies
 
