@@ -56,7 +56,7 @@ Copy this code into Dashboard > General > Custom CSS
 #### Lavender (Main):
 
 ```css
-@import url("https://raw.githubusercontent.com/Fallenbagel/Hint-of-Colors/v2/lavender.css");
+@import url("https://fallenbagel.github.io/Hint-of-Colors/lavender.css");
 ```
 
 ### CUSTOMISATION (Your own Colors!):
