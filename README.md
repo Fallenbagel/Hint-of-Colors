@@ -128,13 +128,13 @@ https://user-images.githubusercontent.com/98979876/173202316-a194406d-5b76-4b6c-
 
 #### Item Detail Movies
 
-![image](./img/Movies%202.png)
 ![image](./img/Movies%201.png)
+![image](./img/Movies%202.png)
 
 #### Item Detail Series
 
-![image](./img/Series%202.png)
 ![image](./img/Series%201.png)
+![image](./img/Series%202.png)
 
 #### Dashboard
 
